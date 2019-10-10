@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!-- EDIT TEXT with the hint of "Enter Phone No." -->
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:hint="Enter phone no."
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:inputType="phone" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <!-- BUTTON for the option Call -->
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:text="Call" />
+
+            <!-- BUTTON for the option Camera -->
+            <Button
+                android:id="@+id/btnCamera"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:text="Camera" />
+
+            <!-- BUTTON for the option Contacts -->
+            <Button
+                android:id="@+id/btnContact"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:text="Contact" />
+
+            <!-- BUTTON for the option Browser -->
+            <Button
+                android:id="@+id/btnBrowser"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:text="Browser" />
+
+            <!-- BUTTON for the option Call log -->
+            <Button
+                android:id="@+id/btnCallLog"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:text="Call Log" />
+
+            <!-- BUTTON for the option Gallery -->
+            <Button
+                android:id="@+id/btnGallery"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:text="Gallery" />
+
+            <!-- BUTTON for the option Dialpad -->
+            <Button
+                android:id="@+id/btnDial"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20sp"
+                android:layout_height="55dp"
+                android:layout_margin="8dp"
+                android:text="Dialpad" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
